@@ -1,9 +1,9 @@
-﻿button, label, stack-layout {
+﻿button, label {
     horizontal-align: center;    
 }
 
 button {
-    font-size: 36;
+    font-size: 20;
 }
 
 .title {
@@ -16,4 +16,9 @@ button {
     color: #284848;
     text-align: center;
     margin: 0 20;
+}
+
+.submit-button{
+    color: white;
+    background-color: #015991;
 } 

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\WorkSpace\\coupon-wallet\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout-v11\\on_demand_manual.xml",
+        "source": "D:\\WorkSpace\\coupon-wallet\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.2.629-dev-release\\res\\layout-v11\\on_demand_manual.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\coupon-wallet\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\layout-v11\\simple_list_item.xml",
+        "source": "D:\\WorkSpace\\coupon-wallet\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.2.629-dev-release\\res\\layout-v11\\simple_list_item.xml"
+    }
+]

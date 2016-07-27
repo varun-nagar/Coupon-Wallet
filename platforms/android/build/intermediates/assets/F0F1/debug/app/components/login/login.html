@@ -1,0 +1,42 @@
+<ActionBar title="login" style="background-color: #bf4040;">
+  <ActionItem text="sign up" (tap)="create()" ios.position="right"></ActionItem>
+</ActionBar>
+<GridLayout #container>
+  <StackLayout orientation="horizontal" horizontalAlignment="center" verticalAlignment="top" style="background-color: #bf4040;">
+    <Button [text]="'Sign In'" [ngClass]="isTabbed ? 'tabbed' : 'tab'" (tap)="toggelTab(0)"></Button>
+    <Button [text]="'Sign Up'" [ngClass]="!isTabbed ? 'tabbed' : 'tab'" (tap)="toggelTab(1)"></Button>
+  </StackLayout>
+
+  <GridLayout columns="*" rows="auto,auto" horizontalAlignment="center" verticalAlignment="center" *ngIf="isTabbed">
+
+    <StackLayout row="0">
+
+      <TextField hint="Email Address" keyboardType="email" [(ngModel)]="user.email" autocorrect="false" autocapitalizationType="none"></TextField>
+      <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
+
+      <Button [text]="'Sign In'" class="submit-button" (tap)="signIn()"></Button>
+
+    </StackLayout>
+
+    <StackLayout row="1">
+
+      <Label text="OR"></Label>
+
+      <Button [text]="'Sign In with Google'" class="submit-button" (tap)="signIn()"></Button>
+      <Button [text]="'Sign In with Facebook'" class="submit-button" (tap)="signIn()"></Button>
+
+    </StackLayout>
+  </GridLayout>
+
+  <GridLayout verticalAlignment="center" *ngIf="!isTabbed">
+
+    <StackLayout>
+      <TextField hint="Name" [(ngModel)]="newUser.name" autocorrect="false" autocapitalizationType="none"></TextField>
+      <TextField hint="Email Address" keyboardType="email" [(ngModel)]="newUser.email" autocorrect="false" autocapitalizationType="none"></TextField>
+      <TextField hint="Password" secure="true" [(ngModel)]="newUser.password"></TextField>
+      <TextField hint="Phone No." keyboardType="phone" [(ngModel)]="newUser.phone"></TextField>
+      <Button [text]="'submit'" class="submit-button" (tap)="submitUserInfo()"></Button>
+
+    </StackLayout>
+  </GridLayout>
+</GridLayout>

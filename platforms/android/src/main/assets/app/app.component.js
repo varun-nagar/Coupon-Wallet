@@ -1,29 +1,22 @@
 "use strict";
 var core_1 = require("@angular/core");
+var router_deprecated_1 = require("@angular/router-deprecated");
+var router_1 = require("nativescript-angular/router");
+var http_1 = require("@angular/http");
+var login_component_1 = require("./components/login/login.component");
 var AppComponent = (function () {
     function AppComponent() {
-        this.counter = 16;
     }
-    Object.defineProperty(AppComponent.prototype, "message", {
-        get: function () {
-            if (this.counter > 0) {
-                return this.counter + " taps left";
-            }
-            else {
-                return "Hoorraaay! \nYou are ready to start building!";
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    AppComponent.prototype.onTap = function () {
-        this.counter--;
-    };
     AppComponent = __decorate([
         core_1.Component({
-            selector: "my-app",
-            template: "\n<StackLayout>\n    <Label text=\"Tap the button\" class=\"title\"></Label>\n    \n    <Button text=\"TAP\" (tap)=\"onTap()\"></Button>\n\n    <Label [text]=\"message\" class=\"message\" textWrap=\"true\"></Label>\n</StackLayout>\n",
-        }), 
+            selector: "main",
+            directives: [router_1.NS_ROUTER_DIRECTIVES],
+            providers: [http_1.HTTP_PROVIDERS, router_1.NS_ROUTER_PROVIDERS],
+            template: "<page-router-outlet></page-router-outlet>"
+        }),
+        router_deprecated_1.RouteConfig([
+            { path: "/Login", component: login_component_1.LoginComponent, name: "Login", useAsDefault: true }
+        ]), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;

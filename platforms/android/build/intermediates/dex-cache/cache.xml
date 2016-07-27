@@ -2,67 +2,102 @@
 <items version="2" >
 
     <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\couponwallet\binding-generator\unspecified\jars\classes.jar"
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="cd7dd3d8b3faa7a457003b040d45b12c7e268dc6">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\couponwallet-binding-generator-unspecified_e480d0e7db8760b3fb9683acdd8598946eccf1df.jar" />
-    </item>
-    <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_4e8b7518bcde7fa41992f915e09d82b673b8a8a7.jar" />
-    </item>
-    <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_0c9b73e5c5604e0ca1bbd2504eb6ba9f83884fd7.jar" />
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-23.1.0_1e4e7ab912afcd6720674b3e0d9220e6aaae1c52.jar" />
     </item>
     <item
         jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_93519bfd167a75bc2e9c7a1c72db116cf81da517.jar" />
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-v4-23.4.0_93519bfd167a75bc2e9c7a1c72db116cf81da517.jar" />
     </item>
     <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\couponwallet\binding-generator\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_374824cd894e2e479794927466d1315c020d9b0e.jar" />
+        sha1="cd7dd3d8b3faa7a457003b040d45b12c7e268dc6">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\couponwallet-binding-generator-unspecified_e480d0e7db8760b3fb9683acdd8598946eccf1df.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\Data-2016.2.629-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="188ffb391d6a2743728b338a772eff0a08ff3bd3">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Data-2016.2.629-dev-release_0c2330e117d0bd827daf6f049c858a1c4aa71f91.jar" />
     </item>
     <item
         jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_5fc025d99756cb8f00e213cfb49caa31c7a2b6d8.jar" />
-    </item>
-    <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\couponwallet\runtime\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f8c8ebc987f6538a65f5cfd308d5984746999d79">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\couponwallet-runtime-unspecified_c30ae9770db7ae2fe48ce566adc10cf4de0de32e.jar" />
-    </item>
-    <item
-        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f2e5203427159d06a7104c1a113eee1c22e0ceb9">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_c6ac580a9d8d32e242e5952b4b103b1d0a7b09f2.jar" />
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\internal_impl-23.4.0_5fc025d99756cb8f00e213cfb49caa31c7a2b6d8.jar" />
     </item>
     <item
         jar="C:\Users\varun nagar\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_2cb3edcc6d5f9402f6c4dbfbc016daab5b3a156a.jar" />
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\support-annotations-23.4.0_2cb3edcc6d5f9402f6c4dbfbc016daab5b3a156a.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-appcompat-v7-23.4.0_4e8b7518bcde7fa41992f915e09d82b673b8a8a7.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-vector-drawable-23.4.0_374824cd894e2e479794927466d1315c020d9b0e.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\List-2016.2.629-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c43499a3775c5e1b9a89a69d8c01fb2dd82cc979">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-List-2016.2.629-dev-release_e43bb3486fb8d3f64260857c9c154ad0ce42a198.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-animated-vector-drawable-23.4.0_0c9b73e5c5604e0ca1bbd2504eb6ba9f83884fd7.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2e5203427159d06a7104c1a113eee1c22e0ceb9">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-widgets-release_c6ac580a9d8d32e242e5952b4b103b1d0a7b09f2.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\Primitives-2016.2.629-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="461725b4dae6967bc0e6c2557f7e05ab25619e0d">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Primitives-2016.2.629-dev-release_d64bbc9ed63b4abc41527c509fc6e3c3a5ce1599.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\Common-2016.2.629-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="211263e4bf749a62596b99a87521950071db2c59">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Common-2016.2.629-dev-release_bc37ede59a87393bc2b0a307895edf7b07a91c6f.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\exploded-aar\couponwallet\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8c8ebc987f6538a65f5cfd308d5984746999d79">
+        <dex dex="D:\WorkSpace\coupon-wallet\platforms\android\build\intermediates\pre-dexed\F0F1\debug\couponwallet-runtime-unspecified_c30ae9770db7ae2fe48ce566adc10cf4de0de32e.jar" />
     </item>
 
 </items>
