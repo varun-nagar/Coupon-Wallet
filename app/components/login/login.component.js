@@ -12,7 +12,7 @@ var LoginComponent = (function () {
         this.user = new user_1.User();
     }
     LoginComponent.prototype.signIn = function () {
-        if (this.user.validateUser()) {
+        if (this.user.validateUser("signIn")) {
             this._userService.signIn(this.user);
         }
         else {
@@ -29,7 +29,7 @@ var LoginComponent = (function () {
         });
     };
     LoginComponent.prototype.submitUserInfo = function () {
-        if (this.newUser.validateUser()) {
+        if (this.newUser.validateUser("signUp")) {
             this._userService.register(this.newUser).subscribe(function () {
                 alert("Your account was successfully created.");
                 // this.toggleDisplay();
@@ -39,13 +39,6 @@ var LoginComponent = (function () {
             alert("please provide valid details.");
         }
     };
-    //  .subscribe(
-    //       () => {
-    //         alert("Your account was successfully created.");
-    //         this.toggleDisplay();
-    //       },
-    //       () => alert("Unfortunately we were unable to create your account.")
-    //     );
     LoginComponent.prototype.ngOnInit = function () {
         this._page.actionBarHidden = true;
         this._page.backgroundColor = new color_1.Color("#996666");

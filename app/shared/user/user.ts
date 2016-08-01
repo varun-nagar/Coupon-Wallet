@@ -6,18 +6,17 @@ export class User {
   password: string;
   phone: string;
 
-  validateUser() {
+  validateUser(processType) {
     let phoneRegex: any = /^[0-9]{10}$/;
-    if (!validator.validate(this.email) || !this.name) {
+    if (!validator.validate(this.email)) {
       return false;
     } else if (!this.password) {
       return false;
     }
-    else if (this.phone && !phoneRegex.test(this.phone)) {
+    else if (processType && processType === "signUp" && (!phoneRegex.test(this.phone) || !this.name)) {
       return false;
     } else {
       return true;
     }
   }
-
 }

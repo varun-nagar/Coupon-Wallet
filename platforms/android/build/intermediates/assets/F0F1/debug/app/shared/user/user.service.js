@@ -15,17 +15,10 @@ var UserService = (function () {
         }
         var headers = new http_1.Headers();
         headers.append("Content-Type", "application/json");
-        return this._http.post(config_1.Config.apiUrl + "registerUser", JSON.stringify(user), { headers: headers }).subscribe(function (response) {
-            console.log("About to register: " + user.email);
-            console.log("with details: " + user.email + user.password + user.phone);
-            return JSON.stringify(response.message);
-        }, function (error) {
-            console.log("error occured in registering user.");
-            return JSON.stringify(error.message);
-        });
+        return this._http.post(config_1.Config.apiUrl + "registerUser", JSON.stringify(user), { headers: headers }).catch(this.handleErrors);
     };
     UserService.prototype.handleErrors = function (error) {
-        console.log(JSON.stringify(error.json()));
+        console.log(JSON.stringify(error));
         return Rx_1.Observable.throw(error);
     };
     UserService.prototype.signIn = function (user) {

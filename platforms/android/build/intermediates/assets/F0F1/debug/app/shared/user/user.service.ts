@@ -24,18 +24,11 @@ export class UserService {
         return this._http.post(
             Config.apiUrl + "registerUser",
             JSON.stringify(user),
-            { headers: headers }).subscribe(function (response: any) {
-                console.log("About to register: " + user.email);
-                console.log("with details: " + user.email + user.password + user.phone);
-                return JSON.stringify(response.message);
-            }, function (error: any) {
-                console.log("error occured in registering user.");
-                return JSON.stringify(error.message);
-            });
+            { headers: headers }).catch(this.handleErrors);
     }
 
     handleErrors(error: Response) {
-    console.log(JSON.stringify(error.json()));
+    console.log(JSON.stringify(error));
     return Observable.throw(error);
   }
 

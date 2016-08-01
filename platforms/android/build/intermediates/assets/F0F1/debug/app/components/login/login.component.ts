@@ -24,7 +24,7 @@ export class LoginComponent {
     }
 
     signIn() {
-        if (this.user.validateUser()) {
+        if (this.user.validateUser("signIn")) {
             this._userService.signIn(this.user);
         } else {
             alert("please provide valid details.");
@@ -42,21 +42,18 @@ export class LoginComponent {
     }
 
     submitUserInfo() {
-        if (this.newUser.validateUser()) {
-            var registerationResp = this._userService.register(this.newUser);
-            alert(registerationResp);
+        if (this.newUser.validateUser("signUp")) {
+            this._userService.register(this.newUser).subscribe(
+                () => {
+                    alert("Your account was successfully created.");
+                    // this.toggleDisplay();
+                },
+                () => alert("Unfortunately we were unable to create your account.")
+                );
         } else {
             alert("please provide valid details.");
         }
     }
-
-//  .subscribe(
-//       () => {
-//         alert("Your account was successfully created.");
-//         this.toggleDisplay();
-//       },
-//       () => alert("Unfortunately we were unable to create your account.")
-//     );
 
     ngOnInit() {
         this._page.actionBarHidden = true;
